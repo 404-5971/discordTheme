@@ -36,7 +36,8 @@ body {
 
     /* dms button icon options */
     --dms-icon: on; /* set to default to use discord icon, on to use custom icon, off to disable completely */
-    --dms-icon-svg-url: url('https://raw.githubusercontent.com/SublimeSlime/Guess-Whos-Back/88eb1250f393ba9cd9092d8b2c6a7a44063bca7d/3.svg'); icon /*svg url. MUST BE A SVG. */
+    /* Link to my svg I uploaded to upload thing */
+    --dms-icon-svg-url: url('https://bg85if5q31.ufs.sh/f/OyvrbmSkO8e2jiZIuOdWbTNCWnEXGUq5Bg6RHYMt2IOceo3d'); /*svg url. MUST BE A SVG. */
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
@@ -146,98 +147,8 @@ body {
     --purple-5: hsl(290deg, 85%, 55%);
 }
 
-/* Um... */
-      
-  /* Sexy pink bordered message bubble */
-  .cozyMessage__5126c {
-    background: rgba(20, 20, 20, 0.767) !important;
-    border-radius: 18px !important;
-    padding: 10px 14px !important;
-    border: 2px solid rgba(131, 43, 182, 0.726) !important;
-    box-shadow: 0px 0px 8px rgba(131, 43, 182, 0.726) !important;
-    transition: all 0.2s ease-in-out !important;
-    max-width: 75% !important;
-    word-wrap: break-word !important;
-    display: inline-block !important;
-  }
-  
-  
-  /* Moves ONLY The Text Block Thingy */
-  .contents_c19a55 {
-    margin-left: 60px !important; /* Moves text to the right */
-    position: relative !important;
-  }
-  
-  /* Username Relativity keeper */
-  .header_c19a55 {
-    position: relative !important;
-    margin-bottom: 3px !important;
-  }
-  
-  /* Keep Message Content Good */
-  .messageContent_c19a55 {
-    position: relative !important;
-    word-wrap: break-word !important;
-  }
-  
-  
-  /* Hover Effect */
   .cozyMessage__5126c:hover {
-    background: rgba(30, 30, 30, 0.9) !important;
-    border-color: rgba(0, 0, 0, 0.404) !important;
-    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.9) !important;
-  }
-  
-  /* Un-Stupids Pfp Issues */
-  .avatar_c19a55 {
-    position: absolute !important;
-    left: -62px !important;  /* Adjust to fine-tune */
-    top: 0px !important;   /* Adjust to fine-tune */
-    width: 40px !important; 
-    height: 40px !important;
-    border-radius: 50% !important;
-    z-index: 10 !important; /* Ensures it doesn't get covered */
-  }
-  
-  .container_b7e1cb {  
-    margin-top: 20px !important; /* Pushes attachments downward */
-    margin-left: 30px
-  }
-  
-  
-  .avatarDecoration_c19a55 {
-    position: absolute !important;
-    top: 50% !important;
-    left: -19.5% !important;
-    transform: translate(-50%, -50%) scale(1) !important; /* Shrinks the decoration */
-    width: 20% !important;
-    height: 98% !important;
-    pointer-events: none !important; /* Prevents interaction issues */
-    z-index: 11
-  }
-  
-  
-  
-  /* Aligns reaction box thing with the text */
-  .reactions__23977 {
-    position: relative !important;
-    margin-left: 55px !important; /* Adjust to match text alignment */
-    display: flex !important;
-    align-items: center !important;
-  }
-  
-  
-  .message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) {
-    margin-left: 66px !important; /* Align the bubble with the first message */
-    max-width: calc(100% - 60px) !important; /* Prevent stretching */
-    padding-left: 0px !important; /* Keep padding from shifting text */
-    display: inline-block !important; /* Ensures bubble wraps properly */
-    width: auto !important; /* Allows natural width */
-  }
-  
-  /* Message conntent fix */
-  .message__5126c.cozyMessage__5126c.wrapper_c19a55:not(.groupStart__5126c) .messageContent_c19a55 {
-    margin-left: -120px !important; /* Align text properly */
-    display: inline !important; /* Maintain proper wrapping */
-    white-space: normal !important; /* Prevent weird spacing */
+    background: hsla(290deg, 85%, 30%, 0.3) !important;
+    border-color: hsla(290deg, 85%, 25%, 0.4) !important;
+    box-shadow: 0px 0px 12px hsla(290deg, 85%, 35%, 0.2) !important;
   }
